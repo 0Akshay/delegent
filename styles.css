@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "Test";
+    src: url("src/CormorantGaramond-SemiBold.ttf");
+}
+
+body, * {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-image: url("src/landscape.jpg");
+    height: 100vh;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-heading {
+    color: #f1f1f1;
+    font-size: 50px;
+    font-family: "Test";
+    position: absolute;
+    top: 35%;
+}
+
